@@ -27,10 +27,18 @@ console.log(checkIt(undefined));
  4)function addChecked(obj)
 {obj.checked = true}
 
-5)var k=4;
-function str()
+5)var k=4;var k=4;
+var zad= new function ()
 {
     for(var i=0; i<k; i++)    
+    {
+        console.log(i);
+    }
+    for(var j=k; j>=0; j--)
+    {
+       console.log(j);
+    }
+}
     {
         console.log(i);
     }
