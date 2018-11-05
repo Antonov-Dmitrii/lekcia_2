@@ -16,16 +16,22 @@ b="Look";
 console.log(a,b)
   }
 
-3)function checkIt (a=10) {
+3)function checkIt (a=10) {var a;
+var or = function (a) {
   if (a === undefined) return "undefined";
   else if (a === null) return "null";
 
 }
-console.log(checkIt(undefined));
- console.log(checkIt(null)); 
+console.log(or(undefined));
+ console.log(or(null)); 
 
- 4)function addChecked(obj)
-{obj.checked = true}
+
+ 4)var o = new Object();
+function addChecked(obj)
+{
+  obj.checked = true
+}
+
 
 5)var k=4;var k=4;
 var zad= new function ()
